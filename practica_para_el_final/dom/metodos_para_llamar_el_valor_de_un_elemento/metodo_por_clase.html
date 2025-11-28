@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="metodo">dsfhsodfhjk</h1>
+    <p class="metodo">hola hola hola hola </p>
+    <div id="parrafo"></div>
+    <script>
+        var x = document.getElementsByClassName("metodo"); //crea una variable y se le introduce una coleccion de todos los elementos con la clase metodo
+        var y = document.getElementById("parrafo");
+        y.innerHTML = x[1].innerHTML; //se usa innerHTML para traer el valor del elemento con id parrafo y se le introduce el valor del primer elemento con la clase metodo, usando un vector que empieza en 0
+    </script>
+</body>
+</html>

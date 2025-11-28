@@ -1,0 +1,14 @@
+en este folder vemos como se trabajan los metodos que se usan para traer el valor de un elemnto html dependiendo de como se traen
+
+los metodos mas comunes para traer los valores de un elemnto de html son los siguientes:
+
+getElementById("ID_elemento")
+trae el elemnto con el id que se espeifique dentro del parentesis
+
+getElementsByClassName("metodo")
+trae todos los elementos con la clase que se espeifique dentro del parentesis funciona por vetores del 0 al ultimo, 
+ej: si se crea la variable x con innerhtml deberia ser x[0].innerhtml
+
+getElementsByTagName("p")
+trae todos los elementos con el nombre de la etiqueta que se espeifique dentro del parentesis funciona por vetores del 0 al ultimo, 
+ej: si se crea la variable x con innerhtml deberia ser x[0].innerhtml

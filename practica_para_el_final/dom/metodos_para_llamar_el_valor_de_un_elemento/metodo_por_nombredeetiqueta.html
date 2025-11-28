@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>sdfgdsgdfgfdg</p>
+    <p>valor del parrafo 2</p>
+    <p id="parrafo"></p>
+    <script>
+        var x = document.getElementsByTagName("p"); // crea una variable y se le introduce una coleccion de todos los elementos con la etiqueta p
+        document.getElementById("parrafo").innerHTML = x[1].innerHTML; //se trae el valor del; elemento con id parrafo y se introduce el valor de la etiqueta llamada p con un vedctor que empieza en 0
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript HTML DOM</h2>
+
+<p class="coleccion">Hparrafo 1</p>
+
+<p class="coleccion">parrafo 2 </p>
+
+<h1 class="coleccion">has click para cambiar el color</h1>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+    const myCollection = document.getElementsByClassName("coleccion"); //crea una variable y le carga una collecion de obejtos de la misma etiketa p
+        for (let i = 0; i < myCollection.length; i++) { //usa la variable con la coleccion para cargar un ciclo hasta el ultimo objeto
+        myCollection[i].style.color = "red"; //cambia el comor de cada objeto de la coleccion a rojo
+    }
+}
+</script>
+</body>
+</html>

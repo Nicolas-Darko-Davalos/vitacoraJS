@@ -1,0 +1,4 @@
+las colleciones se dan de vido a los metodos antes vistos como son:
+getElementsByTagName("p"), devido a que este metodo trae una serie de obejetos con la misma eticketa formando un conjunto de obejetos
+atraidos, a esto le sigue la propiedas "length" que define la longitus o cantidad de obejtos de una coleccion
+es ideal para recorrer eleentos de una coleccion
